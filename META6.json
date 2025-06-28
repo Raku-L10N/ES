@@ -1,0 +1,26 @@
+{
+  "auth": "zef:l10n",
+  "authors": [
+    "Liz"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Spanish localization of Raku",
+  "license": "Artistic-2.0",
+  "name": "L10N::ES",
+  "perl": "6.d",
+  "provides": {
+    "L10N::ES": "lib/L10N/ES.rakumod",
+    "RakuAST::Deparse::L10N::ES": "lib/RakuAST/Deparse/L10N/ES.rakumod"
+  },
+  "resources": [
+  ],
+  "tags": [
+    "LOCALIZATION", "Spanish"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
