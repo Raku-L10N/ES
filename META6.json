@@ -17,8 +17,10 @@
   },
   "resources": [
   ],
+  "source-url": "https://github.com/Raku-L10N/ES.git",
   "tags": [
-    "LOCALIZATION", "Spanish"
+    "LOCALIZATION",
+    "Spanish"
   ],
   "test-depends": [
   ],
