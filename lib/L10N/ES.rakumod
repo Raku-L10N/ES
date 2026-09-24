@@ -1,59 +1,59 @@
-# This file contains the ……… Slang of the Raku Programming Language
+# This file contains the Spanish Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-28T21:52:15+02:00 by new-localization.raku
+#- Generated on 2026-09-24T12:36:04-03:00 by -e
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::ES {
     use experimental :rakuast;
-    token block-default { default}
-    token block-else { else}
-    token block-elsif { elsif}
-    token block-for { for}
-    token block-given { given}
-    token block-if { if}
-    token block-loop { loop}
-    token block-orwith { orwith}
-    token block-repeat { repeat}
-    token block-unless { unless}
-    token block-until { until}
-    token block-when { when}
-    token block-whenever { whenever}
-    token block-while { while}
-    token block-with { with}
-    token block-without { without}
-    token constraint-where { where}
+    token block-default { predeterminado}
+    token block-else { sino}
+    token block-elsif { "sino-si"}
+    token block-for { para}
+    token block-given { dado}
+    token block-if { si}
+    token block-loop { bucle}
+    token block-orwith { "o-con"}
+    token block-repeat { repetir}
+    token block-unless { "a-menos-que"}
+    token block-until { hasta}
+    token block-when { cuando}
+    token block-whenever { "siempre-que"}
+    token block-while { mientras}
+    token block-with { con}
+    token block-without { sin}
+    token constraint-where { donde}
     token enum-BigEndian { BigEndian}
-    token enum-Broken { Broken}
-    token enum-False { False}
-    token enum-FileChanged { FileChanged}
-    token enum-FileRenamed { FileRenamed}
-    token enum-Kept { Kept}
-    token enum-Less { Less}
+    token enum-Broken { Roto}
+    token enum-False { Falso}
+    token enum-FileChanged { ArchivoCambiado}
+    token enum-FileRenamed { ArchivoRenombrado}
+    token enum-Kept { Conservado}
+    token enum-Less { Menos}
     token enum-LittleEndian { LittleEndian}
-    token enum-More { More}
+    token enum-More { Más}
     token enum-NativeEndian { NativeEndian}
-    token enum-Planned { Planned}
-    token enum-Same { Same}
-    token enum-SeekFromBeginning { SeekFromBeginning}
-    token enum-SeekFromCurrent { SeekFromCurrent}
-    token enum-SeekFromEnd { SeekFromEnd}
-    token enum-True { True}
+    token enum-Planned { Planeado}
+    token enum-Same { Igual}
+    token enum-SeekFromBeginning { BuscarDesdeInicio}
+    token enum-SeekFromCurrent { BuscarDesdeActual}
+    token enum-SeekFromEnd { BuscarDesdeFin}
+    token enum-True { Verdadero}
     token infix-pcontp { "(cont)"}
     token infix-pelemp { "(elem)"}
     token infix-cff { "^ff"}
     token infix-cffc { "^ff^"}
     token infix-cfff { "^fff"}
     token infix-cfffc { "^fff^"}
-    token infix-after { after}
-    token infix-and { and}
-    token infix-andthen { andthen}
-    token infix-before { before}
-    token infix-but { but}
+    token infix-after { después}
+    token infix-and { y}
+    token infix-andthen { "y-entonces"}
+    token infix-before { antes}
+    token infix-but { pero}
     token infix-cmp { cmp}
     token infix-coll { coll}
     token infix-div { div}
-    token infix-does { does}
+    token infix-does { hace}
     token infix-eq { eq}
     token infix-ff { ff}
     token infix-ffc { "ff^"}
@@ -71,10 +71,10 @@ role L10N::ES {
     token infix-minmax { minmax}
     token infix-mod { mod}
     token infix-ne { ne}
-    token infix-notandthen { notandthen}
-    token infix-o { o}
-    token infix-or { or}
-    token infix-orelse { orelse}
+    token infix-notandthen { "no-y-entonces"}
+    token infix-o { compone}
+    token infix-or { o}
+    token infix-orelse { "o-si-no"}
     token infix-unicmp { unicmp}
     token infix-x { x}
     token infix-X { X}
@@ -83,42 +83,42 @@ role L10N::ES {
     token meta-R { R}
     token meta-X { X}
     token meta-Z { Z}
-    token modifier-for { for}
-    token modifier-given { given}
-    token modifier-if { if}
-    token modifier-unless { unless}
-    token modifier-until { until}
-    token modifier-when { when}
-    token modifier-while { while}
-    token modifier-with { with}
-    token modifier-without { without}
+    token modifier-for { para}
+    token modifier-given { dado}
+    token modifier-if { si}
+    token modifier-unless { "a-menos-que"}
+    token modifier-until { hasta}
+    token modifier-when { cuando}
+    token modifier-while { mientras}
+    token modifier-with { con}
+    token modifier-without { sin}
     token multi-multi { multi}
-    token multi-only { only}
+    token multi-only { solo}
     token multi-proto { proto}
-    token package-class { class}
-    token package-grammar { grammar}
-    token package-module { module}
-    token package-package { package}
-    token package-role { role}
-    token phaser-BEGIN { BEGIN}
-    token phaser-CATCH { CATCH}
-    token phaser-CHECK { CHECK}
-    token phaser-CLOSE { CLOSE}
+    token package-class { clase}
+    token package-grammar { gramática}
+    token package-module { módulo}
+    token package-package { paquete}
+    token package-role { rol}
+    token phaser-BEGIN { INICIO}
+    token phaser-CATCH { CAPTURAR}
+    token phaser-CHECK { COMPROBAR}
+    token phaser-CLOSE { CERRAR}
     token phaser-CONTROL { CONTROL}
     token phaser-DOC { DOC}
-    token phaser-END { END}
-    token phaser-ENTER { ENTER}
-    token phaser-FIRST { FIRST}
-    token phaser-INIT { INIT}
-    token phaser-KEEP { KEEP}
-    token phaser-LAST { LAST}
-    token phaser-LEAVE { LEAVE}
-    token phaser-NEXT { NEXT}
+    token phaser-END { FIN}
+    token phaser-ENTER { ENTRAR}
+    token phaser-FIRST { PRIMERO}
+    token phaser-INIT { INICIALIZAR}
+    token phaser-KEEP { CONSERVAR}
+    token phaser-LAST { ÚLTIMO}
+    token phaser-LEAVE { SALIR}
+    token phaser-NEXT { SIGUIENTE}
     token phaser-POST { POST}
     token phaser-PRE { PRE}
-    token phaser-QUIT { QUIT}
-    token phaser-UNDO { UNDO}
-    token prefix-not { not}
+    token phaser-QUIT { ABANDONAR}
+    token phaser-UNDO { DESHACER}
+    token prefix-not { no}
     token prefix-so { so}
     token quote-lang-m { m}
     token quote-lang-ms { ms}
@@ -130,60 +130,76 @@ role L10N::ES {
     token quote-lang-S { S}
     token quote-lang-ss { ss}
     token quote-lang-Ss { Ss}
-    token routine-method { method}
+    token routine-method { método}
     token routine-regex { regex}
-    token routine-rule { rule}
-    token routine-sub { sub}
-    token routine-submethod { submethod}
+    token routine-rule { regla}
+    token routine-sub { función}
+    token routine-submethod { submétodo}
     token routine-token { token}
-    token scope-anon { anon}
-    token scope-augment { augment}
-    token scope-constant { constant}
-    token scope-has { has}
-    token scope-HAS { HAS}
-    token scope-my { my}
-    token scope-our { our}
-    token scope-state { state}
-    token scope-unit { unit}
-    token stmt-prefix-also { also}
-    token stmt-prefix-do { do}
-    token stmt-prefix-eager { eager}
-    token stmt-prefix-gather { gather}
-    token stmt-prefix-hyper { hyper}
-    token stmt-prefix-lazy { lazy}
-    token stmt-prefix-quietly { quietly}
-    token stmt-prefix-race { race}
-    token stmt-prefix-react { react}
-    token stmt-prefix-sink { sink}
-    token stmt-prefix-start { start}
-    token stmt-prefix-supply { supply}
-    token stmt-prefix-try { try}
+    token scope-anon { anónimo}
+    token scope-augment { ampliar}
+    token scope-constant { constante}
+    token scope-has { tiene}
+    token scope-HAS { TIENE}
+    token scope-my { mi}
+    token scope-our { nuestro}
+    token scope-state { estado}
+    token scope-unit { unidad}
+    token stmt-prefix-also { también}
+    token stmt-prefix-do { hacer}
+    token stmt-prefix-eager { ávido}
+    token stmt-prefix-gather { reunir}
+    token stmt-prefix-hyper { hiper}
+    token stmt-prefix-lazy { perezoso}
+    token stmt-prefix-quietly { silenciosamente}
+    token stmt-prefix-race { carrera}
+    token stmt-prefix-react { reaccionar}
+    token stmt-prefix-sink { descartar}
+    token stmt-prefix-start { iniciar}
+    token stmt-prefix-supply { suministro}
+    token stmt-prefix-try { intentar}
     token term-nano { nano}
-    token term-now { now}
+    token term-now { ahora}
     token term-pi { pi}
-    token term-rand { rand}
-    token term-self { self}
+    token term-rand { azar}
+    token term-self { "sí-mismo"}
     token term-tau { tau}
-    token term-time { time}
-    token traitmod-does { does}
-    token traitmod-handles { handles}
-    token traitmod-hides { hides}
-    token traitmod-is { is}
-    token traitmod-of { of}
-    token traitmod-returns { returns}
-    token traitmod-trusts { trusts}
-    token typer-enum { enum}
-    token typer-subset { subset}
-    token use-import { import}
-    token use-need { need}
+    token term-time { tiempo}
+    token traitmod-does { hace}
+    token traitmod-handles { maneja}
+    token traitmod-hides { oculta}
+    token traitmod-is { es}
+    token traitmod-of { de}
+    token traitmod-returns { devuelve}
+    token traitmod-trusts { confía}
+    token typer-enum { enumeración}
+    token typer-subset { subconjunto}
+    token use-import { importar}
+    token use-need { necesitar}
     token use-no { no}
-    token use-require { require}
-    token use-use { use}
+    token use-require { requerir}
+    token use-use { usar}
     method core2ast {
-        self.ast // RakuAST::Name.from-identifier(self.Str)
+        my constant %mapping = "absoluto", "abs", "todos", "all", "alguno", "any", "añadir", "append", "techo", "ceiling", "definido", "defined", "morir", "die", "terminar", "exit", "primero", "first", "piso", "floor", "filtrar", "grep", "unir", "join", "claves", "keys", "salir", "last", "último", "last", "líneas", "lines", "lista", "list", "mapear", "map", "máximo", "max", "mínimo", "min", "siguiente", "next", "nota", "note", "imprimir", "print", "pedir", "prompt", "agregar", "push", "rehacer", "redo", "reducir", "reduce", "retornar", "return", "invertir", "reverse", "redondear", "round", "dí", "say", "suma", "sum", "valores", "values", "advertir", "warn", "palabras", "words";
+        my $ast := self.ast;
+        my $name := $ast ?? $ast.simple-identifier !! self.Str;
+        if %mapping{$name} -> $original {
+            RakuAST::Name.from-identifier($original)
+        }
+        else {
+            $ast // RakuAST::Name.from-identifier($name)
+        }
     }
     method trait-is2ast {
-        self.ast // RakuAST::Name.from-identifier(self.Str)
+        my constant %mapping = "copia", "copy";
+        my $ast := self.ast;
+        my $name := $ast ?? $ast.simple-identifier !! self.Str;
+        if %mapping{$name} -> $original {
+            RakuAST::Name.from-identifier($original)
+        }
+        else {
+            $ast // RakuAST::Name.from-identifier($name)
+        }
     }
     method adverb-pc2str (str $key) {
         $key

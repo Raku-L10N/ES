@@ -8,11 +8,12 @@ L10N::ES - Spanish localization of Raku
 SYNOPSIS
 ========
 
-    $ spaku -e '' # please add a simple code example in the ES localization
+    $ spaku -e 'dí "Hola Mundo"'
+    Hola Mundo
 
 ```raku
 use L10N::ES;
-# please add a code example in the ES localization
+dí "Hola Mundo";
 ```
 
 DESCRIPTION

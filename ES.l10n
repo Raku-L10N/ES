@@ -1,7 +1,7 @@
 # This file contains the Spanish localization of the
 # Raku Programming Language.
 #
-# CONTRIBUTORS:
+# CONTRIBUTORS: Ignacio Martinoli
 #
 # See https://github.com/Raku-L10N/L10N/ for more information
 
@@ -76,32 +76,32 @@
 #adverb-rx-x           x
 
 # KEY           TRANSLATION
-#block-default   default
-#block-else      else
-#block-elsif     elsif
-#block-for       for
-#block-given     given
-#block-if        if
-#block-loop      loop
-#block-orwith    orwith
-#block-repeat    repeat
-#block-unless    unless
-#block-until     until
-#block-when      when
-#block-whenever  whenever
-#block-while     while
-#block-with      with
-#block-without   without
+block-default   predeterminado
+block-else      sino
+block-elsif     sino-si
+block-for       para
+block-given     dado
+block-if        si
+block-loop      bucle
+block-orwith    o-con
+block-repeat    repetir
+block-unless    a-menos-que
+block-until     hasta
+block-when      cuando
+block-whenever  siempre-que
+block-while     mientras
+block-with      con
+block-without   sin
 
 # KEY             TRANSLATION
-#constraint-where  where
+constraint-where  donde
 
 # KEY                  TRANSLATION
-#core-abs               abs
-#core-all               all
+core-abs               absoluto
+core-all               todos
 #core-antipairs         antipairs
-#core-any               any
-#core-append            append
+core-any               alguno
+core-append            añadir
 #core-ast               ast
 #core-atomic-add-fetch  atomic-add-fetch
 #core-atomic-assign     atomic-assign
@@ -127,7 +127,7 @@
 #core-can-ok        can-ok
 #core-cas           cas
 #core-categorize    categorize
-#core-ceiling       ceiling
+core-ceiling       techo
 #core-chars         chars
 #core-chdir         chdir
 #core-chmod         chmod
@@ -149,9 +149,9 @@
 # KEY         TRANSLATION
 #core-decode   decode
 #core-deepmap  deepmap
-#core-defined  defined
+core-defined  definido
 #core-diag     diag
-#core-die      die
+core-die      morir
 #core-dies-ok  dies-ok
 #core-dir      dir
 #core-does-ok  does-ok
@@ -166,7 +166,7 @@
 #core-ends-with      ends-with
 #core-eval-dies-ok   eval-dies-ok
 #core-eval-lives-ok  eval-lives-ok
-#core-exit           exit
+core-exit           terminar
 #core-exp            exp
 #core-expmod         expmod
 
@@ -174,10 +174,10 @@
 #core-fail          fail
 #core-fails-like    fails-like
 #core-fc            fc
-#core-first         first
+core-first         primero
 #core-flat          flat
 #core-flip          flip
-#core-floor         floor
+core-floor         piso
 #core-flunk         flunk
 #core-fmt           fmt
 #core-full-barrier  full-barrier
@@ -186,7 +186,7 @@
 #core-get   get
 #core-getc  getc
 #core-gist  gist
-#core-grep  grep
+core-grep  filtrar
 
 # KEY      TRANSLATION
 #core-hash  hash
@@ -207,30 +207,30 @@
 #core-item       item
 
 # KEY      TRANSLATION
-#core-join  join
+core-join  unir
 
 # KEY      TRANSLATION
 #core-key   key
-#core-keys  keys
+core-keys  claves
 #core-kv    kv
 
 # KEY          TRANSLATION
-#core-last      last
+core-last      salir | último
 #core-lastcall  lastcall
 #core-lc        lc
 #core-like      like
-#core-lines     lines
+core-lines     líneas
 #core-link      link
-#core-list      list
+core-list      lista
 #core-lives-ok  lives-ok
 #core-lsb       lsb
 
 # KEY        TRANSLATION
 #core-make    make
-#core-map     map
+core-map     mapear
 #core-match   match
-#core-max     max
-#core-min     min
+core-max     máximo
+core-min     mínimo
 #core-minmax  minmax
 #core-mix     mix
 #core-mkdir   mkdir
@@ -239,14 +239,14 @@
 
 # KEY            TRANSLATION
 #core-new         new
-#core-next        next
+core-next        siguiente
 #core-nextcallee  nextcallee
 #core-nextsame    nextsame
 #core-nextwith    nextwith
 #core-nok         nok
 #core-none        none
 #core-not         not
-#core-note        note
+core-note        nota
 
 # KEY      TRANSLATION
 #core-ok    ok
@@ -265,28 +265,28 @@
 #core-plan          plan
 #core-pop           pop
 #core-prepend       prepend
-#core-print         print
+core-print         imprimir
 #core-printf        printf
 #core-proceed       proceed
-#core-prompt        prompt
-#core-push          push
+core-prompt        pedir
+core-push          agregar
 #core-put           put
 
 # KEY            TRANSLATION
 #core-rand        rand
-#core-redo        redo
-#core-reduce      reduce
+core-redo        rehacer
+core-reduce      reducir
 #core-repeated    repeated
 #core-repl        repl
-#core-return      return
+core-return      retornar
 #core-return-rw   return-rw
-#core-reverse     reverse
+core-reverse     invertir
 #core-rindex      rindex
 #core-rmdir       rmdir
 #core-roll        roll
 #core-roots       roots
 #core-rotate      rotate
-#core-round       round
+core-round       redondear
 #core-roundrobin  roundrobin
 #core-run         run
 
@@ -294,7 +294,7 @@
 #core-samecase     samecase
 #core-samemark     samemark
 #core-samewith     samewith
-#core-say          say
+core-say          dí
 #core-set          set
 #core-shell        shell
 #core-shift        shift
@@ -327,7 +327,7 @@
 #core-substr-rw    substr-rw
 #core-subtest      subtest
 #core-succeed      succeed
-#core-sum          sum
+core-sum          suma
 #core-symlink      symlink
 
 # KEY               TRANSLATION
@@ -365,33 +365,33 @@
 # KEY        TRANSLATION
 #core-val     val
 #core-value   value
-#core-values  values
+core-values  valores
 
 # KEY          TRANSLATION
-#core-warn      warn
+core-warn      advertir
 #core-wordcase  wordcase
-#core-words     words
+core-words     palabras
 
 # KEY     TRANSLATION
 #core-zip  zip
 
 # KEY                   TRANSLATION
 #enum-BigEndian          BigEndian
-#enum-Broken             Broken
-#enum-False              False
-#enum-FileChanged        FileChanged
-#enum-FileRenamed        FileRenamed
-#enum-Kept               Kept
-#enum-Less               Less
+enum-Broken             Roto
+enum-False              Falso
+enum-FileChanged        ArchivoCambiado
+enum-FileRenamed        ArchivoRenombrado
+enum-Kept               Conservado
+enum-Less               Menos
 #enum-LittleEndian       LittleEndian
-#enum-More               More
+enum-More               Más
 #enum-NativeEndian       NativeEndian
-#enum-Planned            Planned
-#enum-Same               Same
-#enum-SeekFromBeginning  SeekFromBeginning
-#enum-SeekFromCurrent    SeekFromCurrent
-#enum-SeekFromEnd        SeekFromEnd
-#enum-True               True
+enum-Planned            Planeado
+enum-Same               Igual
+enum-SeekFromBeginning  BuscarDesdeInicio
+enum-SeekFromCurrent    BuscarDesdeActual
+enum-SeekFromEnd        BuscarDesdeFin
+enum-True               Verdadero
 
 # KEY             TRANSLATION
 #infix-(cont)      (cont)
@@ -400,15 +400,15 @@
 #infix-^ff^        ^ff^
 #infix-^fff        ^fff
 #infix-^fff^       ^fff^
-#infix-after       after
-#infix-and         and
-#infix-andthen     andthen
-#infix-before      before
-#infix-but         but
+infix-after       después
+infix-and         y
+infix-andthen     y-entonces
+infix-before      antes
+infix-but         pero
 #infix-cmp         cmp
 #infix-coll        coll
 #infix-div         div
-#infix-does        does
+infix-does        hace
 #infix-eq          eq
 #infix-ff          ff
 #infix-ff^         ff^
@@ -426,10 +426,10 @@
 #infix-minmax      minmax
 #infix-mod         mod
 #infix-ne          ne
-#infix-notandthen  notandthen
-#infix-o           o
-#infix-or          or
-#infix-orelse      orelse
+infix-notandthen  no-y-entonces
+infix-o           compone
+infix-or          o
+infix-orelse      o-si-no
 #infix-unicmp      unicmp
 #infix-x           x
 #infix-X           X
@@ -442,19 +442,19 @@
 #meta-Z  Z
 
 # KEY             TRANSLATION
-#modifier-for      for
-#modifier-given    given
-#modifier-if       if
-#modifier-unless   unless
-#modifier-until    until
-#modifier-when     when
-#modifier-while    while
-#modifier-with     with
-#modifier-without  without
+modifier-for      para
+modifier-given    dado
+modifier-if       si
+modifier-unless   a-menos-que
+modifier-until    hasta
+modifier-when     cuando
+modifier-while    mientras
+modifier-with     con
+modifier-without  sin
 
 # KEY        TRANSLATION
 #multi-multi  multi
-#multi-only   only
+multi-only   solo
 #multi-proto  proto
 
 # KEY           TRANSLATION
@@ -643,31 +643,31 @@
 #named-year  year
 
 # KEY            TRANSLATION
-#package-class    class
-#package-grammar  grammar
-#package-module   module
-#package-package  package
-#package-role     role
+package-class    clase
+package-grammar  gramática
+package-module   módulo
+package-package  paquete
+package-role     rol
 
 # KEY           TRANSLATION
-#phaser-BEGIN    BEGIN
-#phaser-CATCH    CATCH
-#phaser-CHECK    CHECK
-#phaser-CLOSE    CLOSE
+phaser-BEGIN    INICIO
+phaser-CATCH    CAPTURAR
+phaser-CHECK    COMPROBAR
+phaser-CLOSE    CERRAR
 #phaser-CONTROL  CONTROL
 #phaser-DOC      DOC
-#phaser-END      END
-#phaser-ENTER    ENTER
-#phaser-FIRST    FIRST
-#phaser-INIT     INIT
-#phaser-KEEP     KEEP
-#phaser-LAST     LAST
-#phaser-LEAVE    LEAVE
-#phaser-NEXT     NEXT
+phaser-END      FIN
+phaser-ENTER    ENTRAR
+phaser-FIRST    PRIMERO
+phaser-INIT     INICIALIZAR
+phaser-KEEP     CONSERVAR
+phaser-LAST     ÚLTIMO
+phaser-LEAVE    SALIR
+phaser-NEXT     SIGUIENTE
 #phaser-POST     POST
 #phaser-PRE      PRE
-#phaser-QUIT     QUIT
-#phaser-UNDO     UNDO
+phaser-QUIT     ABANDONAR
+phaser-UNDO     DESHACER
 
 # KEY                      TRANSLATION
 #pragma-dynamic-scope       dynamic-scope
@@ -687,7 +687,7 @@
 #pragma-worries             worries
 
 # KEY       TRANSLATION
-#prefix-not  not
+prefix-not  no
 #prefix-so   so
 
 # KEY          TRANSLATION
@@ -703,38 +703,38 @@
 #quote-lang-Ss  Ss
 
 # KEY              TRANSLATION
-#routine-method     method
+routine-method     método
 #routine-regex      regex
-#routine-rule       rule
-#routine-sub        sub
-#routine-submethod  submethod
+routine-rule       regla
+routine-sub        función
+routine-submethod  submétodo
 #routine-token      token
 
 # KEY           TRANSLATION
-#scope-anon      anon
-#scope-augment   augment
-#scope-constant  constant
-#scope-has       has
-#scope-HAS       HAS
-#scope-my        my
-#scope-our       our
-#scope-state     state
-#scope-unit      unit
+scope-anon      anónimo
+scope-augment   ampliar
+scope-constant  constante
+scope-has       tiene
+scope-HAS       TIENE
+scope-my        mi
+scope-our       nuestro
+scope-state     estado
+scope-unit      unidad
 
 # KEY                TRANSLATION
-#stmt-prefix-also     also
-#stmt-prefix-do       do
-#stmt-prefix-eager    eager
-#stmt-prefix-gather   gather
-#stmt-prefix-hyper    hyper
-#stmt-prefix-lazy     lazy
-#stmt-prefix-quietly  quietly
-#stmt-prefix-race     race
-#stmt-prefix-react    react
-#stmt-prefix-sink     sink
-#stmt-prefix-start    start
-#stmt-prefix-supply   supply
-#stmt-prefix-try      try
+stmt-prefix-also     también
+stmt-prefix-do       hacer
+stmt-prefix-eager    ávido
+stmt-prefix-gather   reunir
+stmt-prefix-hyper    hiper
+stmt-prefix-lazy     perezoso
+stmt-prefix-quietly  silenciosamente
+stmt-prefix-race     carrera
+stmt-prefix-react    reaccionar
+stmt-prefix-sink     descartar
+stmt-prefix-start    iniciar
+stmt-prefix-supply   suministro
+stmt-prefix-try      intentar
 
 # KEY               TRANSLATION
 #system-ACCEPTS      ACCEPTS
@@ -748,16 +748,16 @@
 
 # KEY         TRANSLATION
 #term-nano     nano
-#term-now      now
+term-now      ahora
 #term-pi       pi
-#term-rand     rand
-#term-self     self
+term-rand     azar
+term-self     sí-mismo
 #term-tau      tau
-#term-time     time
+term-time     tiempo
 
 # KEY                           TRANSLATION
 #trait-is-built                  built
-#trait-is-copy                   copy
+trait-is-copy                   copia
 #trait-is-default                default
 #trait-is-DEPRECATED             DEPRECATED
 #trait-is-equiv                  equiv
@@ -774,23 +774,23 @@
 #trait-is-tighter                tighter
 
 # KEY             TRANSLATION
-#traitmod-does     does
-#traitmod-handles  handles
-#traitmod-hides    hides
-#traitmod-is       is
-#traitmod-of       of
-#traitmod-returns  returns
-#traitmod-trusts   trusts
+traitmod-does     hace
+traitmod-handles  maneja
+traitmod-hides    oculta
+traitmod-is       es
+traitmod-of       de
+traitmod-returns  devuelve
+traitmod-trusts   confía
 
 # KEY         TRANSLATION
-#typer-enum    enum
-#typer-subset  subset
+typer-enum    enumeración
+typer-subset  subconjunto
 
 # KEY        TRANSLATION
-#use-import   import
-#use-need     need
+use-import   importar
+use-need     necesitar
 #use-no       no
-#use-require  require
-#use-use      use
+use-require  requerir
+use-use      usar
 
 # vim: expandtab shiftwidth=4
