@@ -12,6 +12,8 @@ SYNOPSIS
     Hola Mundo
 
 ```raku
+# Must have RAKUDO_RAKUAST=1 environment variable set
+# when running a Rakudo older than the 2026.09 release
 use L10N::ES;
 dí "Hola Mundo";
 ```
@@ -24,12 +26,12 @@ The `L10N::ES` distribution contains the logic to provide a Spanish localization
 AUTHORS
 =======
 
-Liz <l10n@raku.org>
+Elizabeth Mattijsen, Ignacio Martinoli
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2025 Raku Localization Team
+Copyright 2025, 2026 Raku Localization Team
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

@@ -1,7 +1,7 @@
 # This file contains the Spanish Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2026-09-24T12:36:04-03:00 by -e
+#- Generated on 2026-09-25T17:44:05+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::ES {
@@ -55,6 +55,7 @@ role L10N::ES {
     token infix-div { div}
     token infix-does { hace}
     token infix-eq { eq}
+    token infix-eqv { eqv}
     token infix-ff { ff}
     token infix-ffc { "ff^"}
     token infix-fff { fff}
@@ -78,6 +79,7 @@ role L10N::ES {
     token infix-unicmp { unicmp}
     token infix-x { x}
     token infix-X { X}
+    token infix-xor { xor}
     token infix-xx { xx}
     token infix-Z { Z}
     token meta-R { R}
@@ -180,7 +182,7 @@ role L10N::ES {
     token use-require { requerir}
     token use-use { usar}
     method core2ast {
-        my constant %mapping = "absoluto", "abs", "todos", "all", "alguno", "any", "añadir", "append", "techo", "ceiling", "definido", "defined", "morir", "die", "terminar", "exit", "primero", "first", "piso", "floor", "filtrar", "grep", "unir", "join", "claves", "keys", "salir", "last", "último", "last", "líneas", "lines", "lista", "list", "mapear", "map", "máximo", "max", "mínimo", "min", "siguiente", "next", "nota", "note", "imprimir", "print", "pedir", "prompt", "agregar", "push", "rehacer", "redo", "reducir", "reduce", "retornar", "return", "invertir", "reverse", "redondear", "round", "dí", "say", "suma", "sum", "valores", "values", "advertir", "warn", "palabras", "words";
+        my constant %mapping = "absoluto", "abs", "todos", "all", "alguno", "any", "añadir", "append", "techo", "ceiling", "definido", "defined", "morir", "die", "terminar", "exit", "primero", "first", "piso", "floor", "filtrar", "grep", "is-approx", "is-absolute", "unir", "join", "claves", "keys", "salir", "last", "último", "last", "líneas", "lines", "lista", "list", "mapear", "map", "máximo", "max", "mínimo", "min", "siguiente", "next", "nota", "note", "imprimir", "print", "pedir", "prompt", "agregar", "push", "rehacer", "redo", "reducir", "reduce", "retornar", "return", "invertir", "reverse", "redondear", "round", "dí", "say", "suma", "sum", "valores", "values", "advertir", "warn", "palabras", "words";
         my $ast := self.ast;
         my $name := $ast ?? $ast.simple-identifier !! self.Str;
         if %mapping{$name} -> $original {
@@ -191,7 +193,7 @@ role L10N::ES {
         }
     }
     method trait-is2ast {
-        my constant %mapping = "copia", "copy";
+        my constant %mapping = "copia", "copy", "requerido", "required";
         my $ast := self.ast;
         my $name := $ast ?? $ast.simple-identifier !! self.Str;
         if %mapping{$name} -> $original {
@@ -211,7 +213,8 @@ role L10N::ES {
         $key
     }
     method named2str (str $key) {
-        $key
+        my constant %mapping = "mode", "modified";
+        %mapping{$key} // $key
     }
     method pragma2str (str $key) {
         $key

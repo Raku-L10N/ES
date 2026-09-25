@@ -12,11 +12,10 @@ Hola Mundo
 =end output
 
 =begin code :lang<raku>
-
 # Must have RAKUDO_RAKUAST=1 environment variable set
+# when running a Rakudo older than the 2026.09 release
 use L10N::ES;
 dí "Hola Mundo";
-
 =end code
 
 =head1 DESCRIPTION
@@ -29,11 +28,11 @@ in selected programs with a C<use L10N::ES> statement.
 
 =head1 AUTHORS
 
-Liz <l10n@raku.org>
+Elizabeth Mattijsen, Ignacio Martinoli
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2025 Raku Localization Team
+Copyright 2026 Raku Localization Team
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

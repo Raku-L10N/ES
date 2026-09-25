@@ -1,7 +1,8 @@
 {
   "auth": "zef:l10n",
   "authors": [
-    "Liz"
+    "Liz",
+    "Ignacio Martinoli"
   ],
   "build-depends": [
   ],
@@ -10,14 +11,19 @@
   "description": "Spanish localization of Raku",
   "license": "Artistic-2.0",
   "name": "L10N::ES",
-  "perl": "6.d",
   "provides": {
     "L10N::ES": "lib/L10N/ES.rakumod",
     "RakuAST::Deparse::L10N::ES": "lib/RakuAST/Deparse/L10N/ES.rakumod"
   },
+  "raku": "6.d",
   "resources": [
   ],
   "source-url": "https://github.com/Raku-L10N/ES.git",
+  "support": {
+    "bugtracker": "https://github.com/Raku-L10N/ES/issues",
+    "email": "l10n@raku.org",
+    "source": "https://github.com/Raku-L10N/ES.git"
+  },
   "tags": [
     "LOCALIZATION",
     "Spanish"

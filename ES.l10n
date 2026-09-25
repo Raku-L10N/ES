@@ -769,6 +769,7 @@ trait-is-copy                   copia
 #trait-is-nodal                  nodal
 #trait-is-pure                   pure
 #trait-is-raw                    raw
+trait-is-required               requerido
 #trait-is-rw                     rw
 #trait-is-test-assertion         test-assertion
 #trait-is-tighter                tighter
