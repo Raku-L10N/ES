@@ -1,7 +1,7 @@
 # This file contains the Spanish Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2026-09-25T19:27:36+02:00 by update-localization.raku
+#- Generated on 2026-09-25T18:22:55-03:00 by update-localization
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::ES {
@@ -79,7 +79,7 @@ role L10N::ES {
     token infix-unicmp { unicmp}
     token infix-x { x}
     token infix-X { X}
-    token infix-xor { xor}
+    token infix-xor { "o-exclusivo"}
     token infix-xx { xx}
     token infix-Z { Z}
     token meta-R { R}
@@ -182,7 +182,7 @@ role L10N::ES {
     token use-require { requerir}
     token use-use { usar}
     method core2ast {
-        my constant %mapping = "absoluto", "abs", "todos", "all", "alguno", "any", "añadir", "append", "techo", "ceiling", "definido", "defined", "morir", "die", "terminar", "exit", "primero", "first", "piso", "floor", "filtrar", "grep", "is-approx", "is-absolute", "unir", "join", "claves", "keys", "salir", "last", "último", "last", "líneas", "lines", "lista", "list", "mapear", "map", "máximo", "max", "mínimo", "min", "siguiente", "next", "nota", "note", "imprimir", "print", "pedir", "prompt", "agregar", "push", "rehacer", "redo", "reducir", "reduce", "retornar", "return", "invertir", "reverse", "redondear", "round", "dí", "say", "suma", "sum", "valores", "values", "advertir", "warn", "palabras", "words";
+        my constant %mapping = "absoluto", "abs", "accedido", "accessed", "acciones", "actions", "incluir", "add", "todos", "all", "antipar", "antipair", "alguno", "any", "añadir", "append", "rastreo", "backtrace", "por-lotes", "batch", "caché", "cache", "capturas", "caps", "techo", "ceiling", "cambiado", "changed", "hijo", "child", "trozos", "chunks", "limpiar", "cleanup", "clonar", "clone", "día-de-semana", "day-of-week", "día-del-año", "day-of-year", "cuenta-días", "daycount", "días-del-mes", "days-in-month", "días-del-año", "days-in-year", "dd-mm-aaaa", "dd-mm-yyyy", "definido", "defined", "morir", "die", "dir-con-entradas", "dir-with-entries", "ávido", "eager", "anterior", "earlier", "enumeraciones", "enums", "terminar", "exit", "extensión", "extension", "primero", "first", "mapear-plano", "flatmap", "piso", "floor", "agarrar", "grab", "agarrar-pares", "grabpairs", "filtrar", "grep", "grupo", "group", "es-absoluto", "is-absolute", "es-relativo", "is-relative", "unir", "join", "claves", "keys", "salir", "last", "último", "last", "posterior", "later", "líneas", "lines", "lista", "list", "mapear", "map", "máximo", "max", "mensaje", "message", "mínimo", "min", "mm-dd-aaaa", "mm-dd-yyyy", "siguiente", "next", "nota", "note", "original", "orig", "padre", "parent", "analizar", "parse", "ruta", "path", "post-coincidencia", "postmatch", "predecesor", "pred", "pre-coincidencia", "prematch", "imprimir", "print", "producir", "produce", "pedir", "prompt", "agregar", "push", "rehacer", "redo", "reducir", "reduce", "relativo", "relative", "resolver", "resolve", "reanudar", "resume", "relanzar", "rethrow", "retornar", "return", "invertir", "reverse", "redondear", "round", "dí", "say", "descartar", "sink", "analizar-parcial", "subparse", "sucesor", "succ", "suma", "sum", "objetivo", "target", "lanzar", "throw", "hoy", "today", "usuario", "user", "valores", "values", "advertir", "warn", "vigilar", "watch", "semana", "week", "número-de-semana", "week-number", "año-de-semana", "week-year", "día-semana-del-mes", "weekday-of-month", "palabras", "words", "aaaa-mm-dd", "yyyy-mm-dd";
         my $ast := self.ast;
         my $name := $ast ?? $ast.simple-identifier !! self.Str;
         if %mapping{$name} -> $original {
@@ -213,7 +213,7 @@ role L10N::ES {
         $key
     }
     method named2str (str $key) {
-        my constant %mapping = "mode", "modified";
+        my constant %mapping = "por", "by", "creado", "created", "modificado", "modified";
         %mapping{$key} // $key
     }
     method pragma2str (str $key) {

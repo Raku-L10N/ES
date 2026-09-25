@@ -1,5 +1,5 @@
 use Test;
-plan 3;
+plan 4;
 
 my $ast := Q:to/CODE/.AST("ES");
 clase Persona {
@@ -33,5 +33,11 @@ my ($saludo, $doble, $suma) = $ast.EVAL;
 is $saludo, 'Hola, Laura!', 'clase, tiene y método';
 is $doble,  42,             'función y retornar';
 is $suma,   9,              'para, si, bucle y salir';
+
+
+is Q:to/CODE/.AST("ES").EVAL, '26-09-2026 5', 'métodos de fecha';
+mi $fecha = Date.new('2026-09-25');
+"{$fecha.posterior(:1day).dd-mm-aaaa} {$fecha.día-de-semana}"
+CODE
 
 # vim: expandtab shiftwidth=4

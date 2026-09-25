@@ -98,11 +98,11 @@ constraint-where  donde
 
 # KEY                  TRANSLATION
 core-abs               absoluto
-#core-accessed          accessed
-#core-actions           actions
-#core-add               add
+core-accessed          accedido
+core-actions           acciones
+core-add               incluir
 core-all               todos
-#core-antipair          antipair
+core-antipair          antipar
 #core-antipairs         antipairs
 core-any               alguno
 core-append            añadir
@@ -120,37 +120,37 @@ core-append            añadir
 #core-await             await
 
 # KEY           TRANSLATION
-#core-backtrace  backtrace
+core-backtrace  rastreo
 #core-bag        bag
 #core-bail-out   bail-out
 #core-base       base
-#core-batch      batch
+core-batch      por-lotes
 #core-bless      bless
 
 # KEY              TRANSLATION
-#core-cache         cache
+core-cache         caché
 #core-callframe     callframe
 #core-callsame      callsame
 #core-callwith      callwith
 #core-can-ok        can-ok
-#core-caps          caps
+core-caps          capturas
 #core-cas           cas
 #core-categorize    categorize
 core-ceiling       techo
-#core-changed       changed
+core-changed       cambiado
 #core-chars         chars
 #core-chdir         chdir
-#core-child         child
+core-child         hijo
 #core-chmod         chmod
 #core-chomp         chomp
 #core-chop          chop
 #core-chown         chown
 #core-chr           chr
 #core-chrs          chrs
-#core-chunks        chunks
+core-chunks        trozos
 #core-classify      classify
-#core-cleanup       cleanup
-#core-clone         clone
+core-cleanup       limpiar
+core-clone         clonar
 #core-close         close
 #core-cmp-ok        cmp-ok
 #core-codes         codes
@@ -161,12 +161,12 @@ core-ceiling       techo
 #core-cross         cross
 
 # KEY                  TRANSLATION
-#core-day-of-week       day-of-week
-#core-day-of-year       day-of-year
-#core-daycount          daycount
-#core-days-in-month     days-in-month
-#core-days-in-year      days-in-year
-#core-dd-mm-yyyy        dd-mm-yyyy
+core-day-of-week       día-de-semana
+core-day-of-year       día-del-año
+core-daycount          cuenta-días
+core-days-in-month     días-del-mes
+core-days-in-year      días-del-año
+core-dd-mm-yyyy        dd-mm-aaaa
 #core-decode            decode
 #core-deepmap           deepmap
 core-defined           definido
@@ -176,26 +176,26 @@ core-defined           definido
 core-die               morir
 #core-dies-ok           dies-ok
 #core-dir               dir
-#core-dir-with-entries  dir-with-entries
+core-dir-with-entries  dir-con-entradas
 #core-does-ok           does-ok
 #core-done              done
 #core-duckmap           duckmap
 
 # KEY               TRANSLATION
-#core-eager          eager
-#core-earlier        earlier
+core-eager          ávido
+core-earlier        anterior
 #core-elems          elems
 #core-emit           emit
 #core-encode         encode
 #core-end            end
 #core-ends-with      ends-with
-#core-enums          enums
+core-enums          enumeraciones
 #core-eval-dies-ok   eval-dies-ok
 #core-eval-lives-ok  eval-lives-ok
 core-exit           terminar
 #core-exp            exp
 #core-expmod         expmod
-#core-extension      extension
+core-extension      extensión
 
 # KEY              TRANSLATION
 #core-fail          fail
@@ -203,7 +203,7 @@ core-exit           terminar
 #core-fc            fc
 core-first         primero
 #core-flat          flat
-#core-flatmap       flatmap
+core-flatmap       mapear-plano
 #core-flip          flip
 core-floor         piso
 #core-flunk         flunk
@@ -215,10 +215,10 @@ core-floor         piso
 #core-get        get
 #core-getc       getc
 #core-gist       gist
-#core-grab       grab
-#core-grabpairs  grabpairs
+core-grab       agarrar
+core-grabpairs  agarrar-pares
 core-grep       filtrar
-#core-group      group
+core-group      grupo
 
 # KEY      TRANSLATION
 #core-hash  hash
@@ -234,11 +234,11 @@ core-grep       filtrar
 #core-invert       invert
 #core-IO           IO
 #core-is           is
-#core-is-absolute  is-approx
+core-is-absolute  es-absoluto
 #core-is-approx    is-approx
 #core-is-deeply    is-deeply
 #core-is-prime     is-prime
-#core-is-relative  is-relative
+core-is-relative  es-relativo
 #core-isa-ok       isa-ok
 #core-isnt         isnt
 #core-item         item
@@ -254,7 +254,7 @@ core-keys  claves
 # KEY          TRANSLATION
 core-last      salir | último
 #core-lastcall  lastcall
-#core-later     later
+core-later     posterior
 #core-lc        lc
 #core-like      like
 core-lines     líneas
@@ -269,12 +269,12 @@ core-list      lista
 core-map         mapear
 #core-match       match
 core-max         máximo
-#core-message     message
+core-message     mensaje
 core-min         mínimo
 #core-minmax      minmax
 #core-mix         mix
 #core-mkdir       mkdir
-#core-mm-dd-yyyy  mm-dd-yyyy
+core-mm-dd-yyyy  mm-dd-aaaa
 #core-move        move
 #core-msb         msb
 
@@ -295,29 +295,29 @@ core-note        nota
 #core-open  open
 #core-ord   ord
 #core-ords  ords
-#core-orig  orig
+core-orig  original
 
 # KEY              TRANSLATION
 #core-pair          pair
 #core-pairs         pairs
-#core-parent        parent
-#core-parse         parse
+core-parent        padre
+core-parse         analizar
 #core-parse-base    parse-base
 #core-pass          pass
-#core-path          path
+core-path          ruta
 #core-permutations  permutations
 #core-pick          pick
 #core-plan          plan
 #core-pop           pop
 #core-pos           pos
-#core-postmatch     postmatch
-#core-pred          pred
-#core-prematch      prematch
+core-postmatch     post-coincidencia
+core-pred          predecesor
+core-prematch      pre-coincidencia
 #core-prepend       prepend
 core-print         imprimir
 #core-printf        printf
 #core-proceed       proceed
-#core-produce       produce
+core-produce       producir
 core-prompt        pedir
 core-push          agregar
 #core-put           put
@@ -328,12 +328,12 @@ core-push          agregar
 #core-re          re
 core-redo        rehacer
 core-reduce      reducir
-#core-relative    relative
+core-relative    relativo
 #core-repeated    repeated
 #core-repl        repl
-#core-resolve     resolve
-#core-resume      resume
-#core-rethrow     rethrow
+core-resolve     resolver
+core-resume      reanudar
+core-rethrow     relanzar
 core-return      retornar
 #core-return-rw   return-rw
 core-reverse     invertir
@@ -357,7 +357,7 @@ core-say          dí
 #core-shift        shift
 #core-sign         sign
 #core-signal       signal
-#core-sink         sink
+core-sink         descartar
 #core-skip         skip
 #core-skip-rest    skip-rest
 #core-sleep        sleep
@@ -379,13 +379,13 @@ core-say          dí
 #core-starts-with  starts-with
 #core-subbuf       subbuf
 #core-subbuf-rw    subbuf-rw
-#core-subparse     subparse
+core-subparse     analizar-parcial
 #core-subst        subst
 #core-substr       substr
 #core-substr-eq    substr-eq
 #core-substr-rw    substr-rw
 #core-subtest      subtest
-#core-succ         succ
+core-succ         sucesor
 #core-succeed      succeed
 core-sum          suma
 #core-symlink      symlink
@@ -394,14 +394,14 @@ core-sum          suma
 #core-tail           tail
 #core-take           take
 #core-take-rw        take-rw
-#core-target         target
+core-target         objetivo
 #core-tc             tc
 #core-tclc           tclc
 #core-temp           temp
-#core-throw          throw
+core-throw          lanzar
 #core-throws-like    throws-like
 #core-to             to
-#core-today          today
+core-today          hoy
 #core-todo           todo
 #core-trans          trans
 #core-trim           trim
@@ -425,7 +425,7 @@ core-sum          suma
 #core-unpolar   unpolar
 #core-unshift   unshift
 #core-use-ok    use-ok
-#core-user      user
+core-user      usuario
 
 # KEY        TRANSLATION
 #core-val     val
@@ -434,16 +434,16 @@ core-values  valores
 
 # KEY                  TRANSLATION
 core-warn              advertir
-#core-watch             watch
-#core-week              week
-#core-week-number       week-number
-#core-week-year         week-year
-#core-weekday-of-month  weekday-of-month
+core-watch             vigilar
+core-week              semana
+core-week-number       número-de-semana
+core-week-year         año-de-semana
+core-weekday-of-month  día-semana-del-mes
 #core-wordcase          wordcase
 core-words             palabras
 
 # KEY            TRANSLATION
-#core-yyyy-mm-dd  yyyy-mm-dd
+core-yyyy-mm-dd  aaaa-mm-dd
 
 # KEY     TRANSLATION
 #core-zip  zip
@@ -507,7 +507,7 @@ infix-orelse      o-si-no
 #infix-unicmp      unicmp
 #infix-x           x
 #infix-X           X
-#infix-xor         xor
+infix-xor         o-exclusivo
 #infix-xx          xx
 #infix-Z           Z
 
@@ -549,7 +549,7 @@ multi-only   solo
 #named-bin        bin
 #named-bleed      bleed
 #named-broadcast  broadcast
-#named-by         by
+named-by         por
 
 # KEY             TRANSLATION
 #named-catch       catch
@@ -563,7 +563,7 @@ multi-only   solo
 #named-control     control
 #named-count       count
 #named-create      create
-#named-created     created
+named-created     creado
 #named-createonly  createonly
 #named-cwd         cwd
 #named-CWD         CWD
@@ -631,7 +631,7 @@ multi-only   solo
 #named-minute    minute
 #named-mm        mm
 #named-mode      mode
-#named-modified  mode
+named-modified  modificado
 #named-month     month
 
 # KEY               TRANSLATION
