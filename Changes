@@ -1,6 +1,8 @@
 Revision history for L10N-ES
 
 {{$NEXT}}
+    - Translate the core keys added in L10N 0.1.8 (dates, IO, Match,
+      exceptions), Ignacio Martinoli++
 
 0.0.1  2026-09-25T19:43:31+02:00
     - Initial version
