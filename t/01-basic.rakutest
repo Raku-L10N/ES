@@ -1,11 +1,37 @@
 use Test;
-plan 1;
+plan 3;
 
 my $ast := Q:to/CODE/.AST("ES");
-# please fill in a code example in the ES localization
-CODE
-$ast.EVAL;
+clase Persona {
+    tiene Str $.nombre;
 
-pass "Compiled and ran";
+    método saludo {
+        "Hola, $.nombre!"
+    }
+}
+
+función duplicar(Int $n) {
+    retornar $n * 2;
+}
+
+mi $total = 0;
+para 1..5 -> $n {
+    $total += $n si $n %% 2;
+}
+
+mi $vueltas = 0;
+bucle {
+    $vueltas++;
+    salir si $vueltas == 3;
+}
+
+(Persona.new(:nombre<Laura>).saludo, duplicar(21), $total + $vueltas)
+CODE
+
+my ($saludo, $doble, $suma) = $ast.EVAL;
+
+is $saludo, 'Hola, Laura!', 'clase, tiene y método';
+is $doble,  42,             'función y retornar';
+is $suma,   9,              'para, si, bucle y salir';
 
 # vim: expandtab shiftwidth=4

@@ -7,14 +7,15 @@ L10N::ES - Spanish localization of Raku
 =head1 SYNOPSIS
 
 =begin output
-$ spaku -e '' # please add a simple code example in the ES localization
+$ spaku -e 'dí "Hola Mundo"'
+Hola Mundo
 =end output
 
 =begin code :lang<raku>
 
 # Must have RAKUDO_RAKUAST=1 environment variable set
 use L10N::ES;
-# please add a code example in the ES localization
+dí "Hola Mundo";
 
 =end code
 
