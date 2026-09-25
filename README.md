@@ -31,7 +31,7 @@ Elizabeth Mattijsen, Ignacio Martinoli
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2025, 2026 Raku Localization Team
+Copyright 2026 Raku Localization Team
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

@@ -1,6 +1,8 @@
 Revision history for L10N-ES
 
 {{$NEXT}}
+
+0.0.1  2026-09-25T19:43:31+02:00
     - Initial version
     - Add Spanish translations for keywords, phasers, enums, terms
-      and a selection of core subs
+      and a selection of core subs, Ignacio Martinoli++
