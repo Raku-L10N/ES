@@ -1,7 +1,7 @@
 # This file contains the Spanish Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2026-09-25T17:44:05+02:00 by update-localization.raku
+#- Generated on 2026-09-25T19:27:36+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::ES {
